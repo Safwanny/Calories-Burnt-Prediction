@@ -37,7 +37,7 @@ def main():
     Duration = st.text_input('Workout Duration(mins): ')
     Heart_Rate = st.text_input('Average Heart Rate: ')
     Body_Temp = st.text_input('Average Body Temperature: ')
-    
+        
     # code for prediction
     result = ''
     
@@ -45,12 +45,12 @@ def main():
     if st.button('Predict Calories Burnt'):
         try:
             # Converting input values to appropriate data types
-            Gender = float(Gender)
+            Gender = int(Gender)
             Age = int(Age)
             Height = float(Height)
             Weight = float(Weight)
             Duration = float(Duration)
-            Heart_Rate = float(Heart_Rate)
+            Heart_Rate = int(Heart_Rate)
             Body_Temp = float(Body_Temp)
             
             # Making prediction
