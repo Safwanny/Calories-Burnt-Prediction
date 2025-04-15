@@ -4,7 +4,7 @@ Regression Model using XGBoost and Neural Network for predicting calories burnt 
 There is another Neural Network model in the code using tensorFlow, it a play around to compare the accuracies of a Neural Network with
 different paramenter and settings also against the XGBRegressor.
 
-Merged teh two different csv files into one file.
+Merged the two different csv files into one file.
 Conducted data exploration for better understanding the trends in the data and features using plots and heatmaps.
 removed features that were not requied for training.
 converted all features to int64 (dummy variables and also replace)
