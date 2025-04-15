@@ -19,4 +19,4 @@ used streamlit and pickle libraries to deploy the models
 issue: using the XBG model, when predicting for large input values (eg time = 200 mins) the model seems to flatten out at around 250-300
 
 
-This model was also used as a prototype to learn MLops - deployiong using stramlit and fastapi
+This model was also used as a prototype to learn MLops - deployiong using streamlit and fastapi
